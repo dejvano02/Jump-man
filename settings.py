@@ -1,0 +1,28 @@
+# game options/settings
+
+TITLE = "Jump man"
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+FONT_NAME = 'Arial'
+PLAYER_IMG = ""
+BACKGROUND_IMG = ""
+# define colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+BROWN = (139, 69, 19)
+GREY = (100, 100, 100)
+BGCOLOR = GREY
+
+# player settings
+PLAYER_VEL_LEFT_X = -5
+PLAYER_VEL_RIGHT_X = 5
+PLAYER_CHARGE_LEFT_X = 0
+PLAYER_CHARGE_RIGHT_X = 0
+PLAYER_VEL_UP_Y = -15
+PLAYER_GRAV = 0.5
+COLLISION_CONST = -.53
